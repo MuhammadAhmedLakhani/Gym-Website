@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* navbar section start here */
+
+
+#navbar-section {
+    height: 300px;
+}
+
+
+#navbar-section .top-navbar {
+    margin-top: 0;
+    background: #f1f8fc;
+    padding: 5px 0;
+}
+
+#navbar-section .top-nav-container {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+#navbar-section .location>p {
+    padding: 10px;
+    /* padding-right: 15px; */
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #323846;
+}
+
+#navbar-section .call-us :nth-child(2) {
+    color: #323846;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 950;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    gap: 50px;
+}
+
+#navbar-section .call-us {
+    padding: 2px;
+}
+
+#navbar-section .call-us :nth-child(3) {
+    color: rgb(50, 56, 70);
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+
+#navbar-section .bottom-navbar {
+    background-color: #000000d1;
+    padding: 15px 120px;
+}
+
+
+
+#navbar-section .bottom-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+#navbar-section .logo-image>img {
+    width: 100%;
+    max-width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px 10px;
+}
+
+#navbar-section .links-container>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+#navbar-section .links-container>li>a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat, sans-serif";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#navbar-section .question-btn>button {
+    font-family: Montserrat, sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #e80913;
+}
+
+/* naVBAR SECTION ENDS HERE */
+
+
+/* banner section start here */
+
+
+#banner-section {
+    padding: 30px 0px 30px 120px;
+
+}
+
+#banner-section .banner-section-parent {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#banner-section .banner-left {
+    width: 45%;
+    padding: 30px 60px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: auto; */
+}
+
+
+#banner-section .banner-right {
+    width: 55%;
+    height: 90vh;
+    background: url("./images/banner-bg-image.jpg") right/cover no-repeat;
+}
+
+#banner-section .tag-line {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Open Sans", "sans-seri";
+    line-height: 24px;
+    color: rgb(17, 17, 17);
+}
+
+#banner-section .head-line {
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #e80913;
+}
+
+#banner-section .left-description {
+    color: rgb(17, 17, 17);
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+}
+
+#banner-section .banner-btn {
+    border-radius: 20px;
+}
+
+#banner-section .banner-btn button {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-image: none;
+    margin: 30px auto 0 0;
+    padding: 15px 52px 17px 51px;
+    background-color: #e80913;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+#banner-section .reference {
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    margin-top: 37px;
+}
+
+/* banner section edns hree */
+
+/* red section start here */
+
+#red-section {
+    background-color: #e80913;
+    height: auto;
+    padding: 30px 120px;
+}
+
+
+#red-section .red-cards-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#red-section .red-transparent-card {
+    padding: 50px 22px 20px;
+
+}
+
+#red-section .red-transparent-card>p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+}
+
+#red-section .red-transparent-card>h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.8;
+    font-family: Roboto, sans-serif;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+}
+
+/* red section ends here */
+
+/* background section starts here */
+
+#gym-section {
+    height: 100vh;
+}
+
+#gym-section .background-container {
+    position: relative;
+    height: 100vh;
+    background: url(./images/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+/* Overlay layer */
+#gym-section .background-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+/* Content layer */
+
+#gym-section .background-content {
+    position: relative;
+    z-index: 3;
+}
+
+.gym-container {
+
+    padding: 150px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+#gym-section .gym-heading>h2 {
+    font-size: 70px;
+    background-color: #fff;
+    padding: 50px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+
+}
+
+.gym-right {
+    width: 40%;
+}
+
+.gym-left {
+    width: 50%;
+}
+
+.gym-description {
+    margin: 50px 0px;
+}
+
+.gym-description>p {
+    color: #fff;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+.gym-btn>button {
+    padding: 25px 50PX;
+    background-color: #e80913;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border: transparent;
+}
+
+
+/* gym-section ends here */
+
+#workout-section {
+    height: 70vh;
+    padding: 100px 120px;
+    background-color: #e5e5e5;
+    color: #111111;
+}
+
+#workout-section .workout-parent {
+    
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#workout-section .workout-left {
+    width: 40%;
+    height: 50vh;
+    background: url(./images/workout-left-image.jpg) center/cover no-repeat;
+
+}
+
+#workout-section .workout-right {
+    width: 40%;
+    height: 40vh;
+    padding: 30px 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+
+#workout-section .workout-right-heading>h4 {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    ;
+    font-weight: 700;
+
+}
+
+#workout-section .workout-right-description>p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    line-height: 1.8;
+    margin: 20px 0 0;
+}
+
+#workout-section .workout-btn>button {
+    padding: 15px 50PX;
+    margin-top: 20px;
+    background-color: #e80913;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border: transparent;
+}
