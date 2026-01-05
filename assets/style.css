@@ -525,7 +525,8 @@
     padding: 20px 30px;
     /* background: url(./images/app-right-image.jpg) top/cover; */
 }
-#app-section .app-right-section > IMG {
+
+#app-section .app-right-section>IMG {
     width: 80%;
 }
 
@@ -729,14 +730,12 @@
     padding: 30px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    gap: 80px;
+    /* align-items: center; */
 
 }
 
-.journey-bottom-phone > p {
-
-
-}
+.journey-bottom-phone>p {}
 
 
 .journey-bottom-left {
@@ -744,6 +743,10 @@
     padding: 20px 30px;
 }
 
+.journey-bottom-right {
+    width: 50%;
+    padding: 20px 30px;
+}
 
 .journey-bottom-description * {
     margin-top: 20PX;
@@ -754,33 +757,33 @@
 .journey-bottom-description>h4 {
     font-family: Roboto, sans-serif;
     color: #111111;
-    font-size: 24px;
+    font-size: 44px;
     font-weight: 700;
 }
 
 
 .journey-bottom-description>p {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: 400;
     font-family: Montserrat, sans-serif;
     color: #111111;
     line-height: 1.8;
 }
 
-.journey-bottom-email-input > input{
-    width: 40%;
-    background-color:#e5e5e5 ;
+.journey-bottom-email-input>input {
+    width: 60%;
+    background-color: #e5e5e5;
     padding: 10px 20px;
 }
 
 
-.journey-bottom-btn > button {
+.journey-bottom-btn>button {
     background-color: #e80913;
     padding: 10px 20px;
     color: #fff;
 }
 
-.journey-bottom-right-heading > h1 {
+.journey-bottom-right-heading>h1 {
     font-size: 50px;
     font-size: 60px;
     line-height: 1.1;
@@ -789,7 +792,7 @@
 }
 
 .journey-bottom-phone {
-    display:flex ;
+    display: flex;
     align-items: center;
     color: #e80913;
     font-size: 20px;
