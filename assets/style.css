@@ -320,6 +320,9 @@
 
 /* gym-section ends here */
 
+/* workout section start here */
+
+
 #workout-section {
     height: 70vh;
     padding: 100px 120px;
@@ -328,7 +331,7 @@
 }
 
 #workout-section .workout-parent {
-    
+
     margin: 0 auto;
     position: relative;
 
@@ -337,6 +340,7 @@
 #workout-section .workout-left {
     width: 40%;
     height: 50vh;
+    padding: 20px 30px;
     background: url(./images/workout-left-image.jpg) center/cover no-repeat;
 
 }
@@ -358,7 +362,6 @@
 #workout-section .workout-right-heading>h4 {
     font-size: 48px;
     font-family: Roboto, sans-serif;
-    ;
     font-weight: 700;
 
 }
@@ -380,4 +383,431 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     border: transparent;
+}
+
+/* workout section ends here */
+
+
+#inspiration-section .inspiration-overlay {
+    padding: 50px 120px 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(./images/inspiration--bg-image.jpg) center/cover no-repeat;
+}
+
+#inspiration-section .inspiration-overlay>h1 {
+    color: #fff;
+}
+
+#inspiration-section .inspiration-content-parent {
+    padding: 50px;
+    text-align: center;
+}
+
+#inspiration-section .inspiration-heading>h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+
+#inspiration-section .inspiration-description>p {
+    color: #c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+#inspiration-section .inspiration-card {
+    padding: 30px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#inspiration-section .inspiration-card-image>img {
+    width: 80%;
+
+
+}
+
+#inspiration-section .inspiration-card-name>h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#inspiration-section .inspiration-card-description>p {
+    color: #c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+#inspiration-section .inspiration-card-more>span {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid orange;
+}
+
+#inspiration-section .inspiration-cards-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+/* inspiraton section ends here */
+
+/* App section starts here */
+
+
+#app-section {
+    padding: 80px 120px;
+
+}
+
+.app-section-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#app-section .app-left-section {
+    width: 50%;
+    /* padding: 30px 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: flex-start;
+}
+
+#app-section .mobile-tab>h6 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: #e80913;
+    font-weight: 500;
+    background-color: #f6979c;
+    padding: 5px 25px
+}
+
+#app-section .app-heading>h2 {
+    color: #111111;
+    font-size: 48px;
+    font-weight: Roboto, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#app-section .app-description>p {
+    font-size: 21px;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+#app-section .app-images {
+    margin-top: 40px;
+}
+
+#app-section .app-images>img {
+    width: 20%;
+    margin-right: 20px;
+}
+
+#app-section .app-right-section {
+    width: 50%;
+    padding: 20px 30px;
+    /* background: url(./images/app-right-image.jpg) top/cover; */
+}
+#app-section .app-right-section > IMG {
+    width: 80%;
+}
+
+
+/* app section ends here */
+
+/* next-level section starts here */
+
+#next-level-section .overlay-background {
+    padding: 40px 120px;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/next-level-bg-image.jpg);
+}
+
+#next-level-section .next-level-content-center {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#next-level-section .next-level-heading {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+}
+
+#next-level-section .next-level-descriptiom {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#next-level-section .next-level-tabs {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#next-level-section .about-btn {
+    background-color: #d10811;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+
+}
+
+#next-level-section .find-gym-btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 20px 45px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+/* next-level section ends here */
+
+/* journey section starts here */
+
+#journey-section {
+    padding: 50px 120px;
+    background: linear-gradient(#e5e5e5 0%, #e5e5e5 70%, #fff 70%, #fff 100%);
+}
+
+#journey-section .journey-section-parent {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+#journey-section .journey-left {
+    width: 40%;
+    height: 70vh;
+    padding: 10px 5px;
+    background: url(./images/journey-left-image.jpg) center/cover no-repeat;
+    border-radius: 20px;
+}
+
+#journey-section .journey-right {
+    width: 40%;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+
+#journey-section .journey-right * {
+    margin-top: 20px;
+}
+
+#journey-section .mobile-btn>h6 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: #e80913;
+    font-weight: 500;
+    background-color: #f6979c;
+    padding: 5px 25px
+}
+
+#journey-section .jouney-heading {
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+#journey-section .journey-description {
+    font-size: 20px;
+    color: #111111;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#journey-section .journey-communications {
+    padding: 20px 30px;
+}
+
+
+#journey-section .journey-communications span {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+    ;
+    line-height: 1.8;
+
+}
+
+#journey-section .journey-communications a {
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #111111;
+    ;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+
+.journey-section-cards-parent {
+    padding: 70px 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.journey-card1 {
+    background-image: url(../assets/images/inspiration-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 400px;
+    background-position: center;
+}
+
+.journey-card2 {
+    background-image: url(../assets/images/inspiration-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 400px;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.journey-card3 {
+    background-image: url(../assets/images/inspiration-image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 400px;
+    background-position: center;
+}
+
+
+
+
+.journey-card-special {
+    background-image: url(../assets/images/chest-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 400px;
+    background-position: center;
+    margin-top: 100px;
+}
+
+/* journey bottom sub-section starts here */
+
+.journey-bottom-section-parent {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.journey-bottom-phone > p {
+
+
+}
+
+
+.journey-bottom-left {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+
+.journey-bottom-description * {
+    margin-top: 20PX;
+    margin-bottom: 20px;
+}
+
+
+.journey-bottom-description>h4 {
+    font-family: Roboto, sans-serif;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.journey-bottom-description>p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #111111;
+    line-height: 1.8;
+}
+
+.journey-bottom-email-input > input{
+    width: 40%;
+    background-color:#e5e5e5 ;
+    padding: 10px 20px;
+}
+
+
+.journey-bottom-btn > button {
+    background-color: #e80913;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.journey-bottom-right-heading > h1 {
+    font-size: 50px;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.journey-bottom-phone {
+    display:flex ;
+    align-items: center;
+    color: #e80913;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+
+
+/* journey section ends here */
+
+
+/* membership-section starts here */
+
+#membership-section {}
+
+.membership-overlay-background {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/membership-bg-image.jpg) top/cover no-repeat;
 }
