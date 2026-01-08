@@ -10,7 +10,7 @@
 
 
 #navbar-section {
-    height: 300px;
+    min-height: 300px;
 }
 
 
@@ -72,25 +72,31 @@
 
 
 #navbar-section .bottom-nav-container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
 
-
+#navbar-section .logo-image {
+    width: 100px;
+}
 
 #navbar-section .logo-image>img {
-    width: 100%;
-    max-width: 25%;
+    max-width: 60%;
+    overflow: hidden;
     background-color: hsl(0, 0%, 100%);
     padding: 5px 10px;
 }
 
-#navbar-section .links-container>li {
+#navbar-section .links-container {
     list-style-type: none;
-    display: inline-block;
-    padding: 10px 15px;
+    display: flex;
+    gap: 20px;
+
+
+
 }
 
 #navbar-section .links-container>li>a {
@@ -101,8 +107,17 @@
     color: #fff;
 }
 
+/* toggle icon */
 
-#navbar-section .question-btn>button {
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* #navbar-section .question-btn>button {
     font-family: Montserrat, sans-serif;
     padding: 15px;
     font-weight: 500;
@@ -112,9 +127,54 @@
     border: 1px solid #fff;
     color: #fff;
     background-color: #e80913;
-}
+} */
 
 /* naVBAR SECTION ENDS HERE */
+
+/* responsive navbar section start here */
+
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        font-size: 40px;
+    }
+
+    .links {
+        width: 100%;
+
+        /* this take the full width of the nav-container */
+
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+
+    .links.active {
+        max-height: 500px;
+    }
+
+    .links-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .bottom-nav-container {
+        flex-wrap: wrap;
+    }
+
+    /* changing logo */
+    
+    #navbar-section .logo-image>img {
+        max-width: 40%;
+    }
+
+}
+
+
+
 
 
 /* banner section start here */
@@ -597,7 +657,7 @@
 
 #journey-section {
     padding: 50px 120px;
-    background: linear-gradient(#e5e5e5 0%, #e5e5e5 70%, #fff 70%, #fff 100%);
+    background: linear-gradient(#e5e5e5 0%, #e5e5e5 60%, #fff 60%, #fff 100%);
 }
 
 #journey-section .journey-section-parent {
@@ -813,4 +873,54 @@
 .membership-overlay-background {
     height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/membership-bg-image.jpg) top/cover no-repeat;
+    padding: 40px 60px;
+}
+
+#membership-section .membership-heading {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+.membership-description>p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.membership-content {
+    text-align: center;
+}
+
+
+/* membership section ends here */
+
+
+/* health section starts here */
+
+
+#health-section {
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+
+.health-card {
+    padding: 40px 80px;
+    width: 20%;
+    background-color: #fff;
+}
+
+.health-card>h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.health-card>p {
+    font-family: "Open Sans", sans-serif;
 }
