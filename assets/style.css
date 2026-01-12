@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -115,7 +116,7 @@ body {
 
 .menu-toggle {
     display: none;
-    font-size: 28px;
+    font-size: 38px;
     cursor: pointer;
     color: #fff;
 }
@@ -133,54 +134,7 @@ body {
     background-color: #e80913;
 }
 
-/* navbar responsiveness start here */
 
-
-@media (max-width: 768px) {
-
-    .bottom-nav-container {
-        flex-wrap: wrap;
-    }
-
-    .logo-image {
-        order: 1;
-    }
-
-    .menu-toggle {
-        order: 2;
-        display: block;
-    }
-
-    .links {
-        order: 4;
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.4s ease;
-    }
-
-    .links.active {
-        max-height: 500px;
-    }
-
-    .links-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 20px 0;
-    }
-
-    /* 👇 QUESTION BUTTON MOBILE FIX */
-    .question-btn {
-        display: none;
-    }
-
-    #navbar-section {
-        padding: 10px 15px;
-        /* Apni marzi ke mutabiq adjust karen */
-    }
-
-}
 
 
 
@@ -220,7 +174,7 @@ body {
 }
 
 
-#banner-section .banner-left  p {
+#banner-section .banner-left p {
     color: gray;
     font-size: 27px;
     line-height: 40px;
@@ -233,12 +187,11 @@ body {
 #banner-section .banner-right {
     border-radius: 10px;
     width: 55%;
-    height: 90vh;
     margin-top: 10px;
-    background: url("./images/inspiration-image1.jpg") top/cover no-repeat;
+    background: url("./images/inspiration-image1.jpg") center/cover no-repeat;
 }
 
-#banner-section .tag-line {
+#banner-section .tag-line h5 {
     font-size: 35px;
     font-weight: 900;
     font-family: "Open Sans", "sans-seri";
@@ -247,20 +200,22 @@ body {
     margin-top: 20px;
 }
 
-#banner-section .head-line {
-    font-size: 35px;
+#banner-section .head-line h1 {
+    font-size: 55px;
     font-family: Roboto, sans-serif;
     line-height: 1.1;
     font-weight: 600;
     color: #e80913;
     margin-top: 20px;
+
 }
 
-#banner-section .left-description {
+#banner-section .left-description p {
     color: rgb(17, 17, 17);
     line-height: 1.8;
     font-family: "Open Sans", sans-serif;
-    margin-top: 20px;
+    font-size: 17px;
+    margin-top: 17px;
 }
 
 #banner-section .banner-btn {
@@ -321,7 +276,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     font-family: "Open Sans", sans-serif;
-}   
+}
 
 #red-section .red-transparent-card>h4 {
     color: #fff;
@@ -406,8 +361,8 @@ body {
 
 .gym-description>p {
     color: #fff;
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 17px;
+    line-height: 30px;
     text-align: justify;
     font-family: "Open Sans", sans-serif;
 }
@@ -429,7 +384,7 @@ body {
 
 
 #workout-section {
-    height: 70vh;
+    height: 95vh;
     padding: 100px 120px;
     background-color: #e5e5e5;
     color: #111111;
@@ -452,7 +407,7 @@ body {
 
 #workout-section .workout-right {
     width: 45%;
-    height: 40vh;
+    /* height: 40vh; */
     padding: 30px 60px;
     background-color: #fff;
     display: flex;
@@ -653,8 +608,8 @@ body {
     align-items: center;
 }
 
-#next-level-section .next-level-heading {
-    font-size: 30px;
+#next-level-section .next-level-heading h1 {
+    font-size: 40px;
     font-family: Roboto, sans-serif;
     color: #ffffff;
 }
@@ -741,7 +696,7 @@ body {
     padding: 5px 25px
 }
 
-#journey-section .jouney-heading {
+#journey-section .jouney-heading h4 {
     font-size: 48px;
     font-family: Roboto, sans-serif;
     font-weight: 700;
@@ -1011,7 +966,7 @@ body {
 
 .health-card {
     padding: 50px 29px 30px;
-    width: 20%;
+    width: 25%;
     background-color: #fff;
     text-align: center;
 }
@@ -1055,7 +1010,7 @@ body {
 .review-card {
     padding: 20px 30px;
     background-color: #fff;
-    width: 20%;
+    width: 25%;
     text-align: center;
 
 }
@@ -1104,4 +1059,340 @@ body {
     font-weight: 500;
     font-size: 18px;
     border: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsiveness section start here */
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+    /* navbar responsiveness start here */
+
+    .bottom-nav-container {
+        flex-wrap: wrap;
+    }
+
+    .logo-image {
+        order: 1;
+    }
+
+    .menu-toggle {
+        order: 2;
+        display: block;
+    }
+
+    .links {
+        order: 4;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+
+    .links.active {
+        max-height: 500px;
+    }
+
+    .links-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    /* 👇 QUESTION BUTTON MOBILE FIX */
+    .question-btn {
+        order: 5;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar-section .bottom-navbar {
+        padding: 15px 30px;
+    }
+
+
+    /* banner section responsiveness atart here */
+
+
+    #banner-section {
+        padding: 0px 30px 20px;
+    }
+
+
+
+    #banner-section .banner-section-parent {
+        flex-direction: column;
+    }
+
+    #banner-section .banner-right {
+        height: 70vh;
+        width: 100%;
+    }
+
+    #banner-section .banner-left {
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+
+
+
+    #red-section {
+        padding: 30px 30px;
+    }
+
+
+
+
+    #red-section .red-cards-parent {
+        flex-direction: column;
+    }
+
+    /* gym section responsiveness start here */
+
+    .gym-container {
+        padding: 30px 30px;
+    }
+
+    .gym-left {
+        width: 90%;
+    }
+
+
+    #gym-section .gym-heading>h2 {
+        padding: 10px 15px;
+        font-size: 45px;
+    }
+
+    .gym-btn>button {
+        padding: 20px 30PX;
+    }
+
+    /* workout section start here */
+
+    #workout-section {
+        padding: 30px 30px;
+        height: auto;
+    }
+
+    #workout-section .workout-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #workout-section .workout-left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #workout-section .workout-right {
+        width: 100%;
+        position: static;
+        padding: 50px 30px;
+    }
+
+    /* inspiration section responsiveness start here */
+
+
+    #inspiration-section .inspiration-overlay {
+        padding: 50px 30px 80px;
+    }
+
+    #inspiration-section .inspiration-cards-parent {
+        flex-direction: column;
+        ;
+    }
+
+    #inspiration-section .inspiration-card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #inspiration-section .inspiration-card-image>img {
+        width: 80%;
+    }
+
+    /*app section responsiveness starts here  */
+
+    #app-section {
+        padding: 80px 30px;
+    }
+
+    .app-section-parent {
+        flex-direction: column;
+    }
+
+
+
+    #journey-section .jouney-heading h4 {
+        font-size: 38px;
+    }
+
+
+    #app-section .app-left-section {
+        width: 100%;
+    }
+
+    #app-section .app-right-section {
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    #app-section .app-heading>h2 {
+        font-size: 40px;
+    }
+
+    /* next-level section responsiveness start here */
+
+
+    #next-level-section .overlay-background {
+        padding: 40px 30px;
+        height: auto;
+
+    }
+
+
+    #next-level-section .next-level-descriptiom {
+        text-align: left;
+    }
+
+
+
+    #next-level-section .next-level-tabs {
+        text-align: left;
+    }
+
+    #next-level-section .about-btn {
+        padding: 10px;
+    }
+
+    #next-level-section .find-gym-btn {
+        padding: 10px;
+    }
+
+
+    /* jouney section responsiveness */
+
+    #journey-section {
+        padding: 50px 30px;
+    }
+
+
+    #journey-section .journey-section-parent {
+        flex-direction: column;
+    }
+
+    #journey-section .journey-left {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    #journey-section .journey-right {
+        width: 100%;
+    }
+
+    .journey-section-cards-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .journey-bottom-right-heading>h1 {
+        font-size: 40px;
+    }
+
+
+    .journey-card1 {
+        width: 100%;
+        background-position: top;
+    }
+
+    .journey-card2 {
+        width: 100%;
+        background-position: top;
+        margin-top: 0px;
+
+    }
+
+    .journey-card3 {
+        width: 100%;
+        background-position: top;
+
+    }
+
+    .journey-card4 {
+        width: 100%;
+        background-position: top;
+    }
+
+    .journey-card-special {
+        width: 100%;
+        background-position: top;
+        margin-top: 0px;
+    }
+
+
+    .journey-bottom-section-parent {
+        flex-direction: column;
+    }
+
+    .journey-bottom-left {
+        width: 100%;
+    }
+
+    .journey-bottom-right {
+        width: 100%;
+    }
+
+    /* combine section responsiveness start here */
+
+    #combine-section {
+        padding: 50px 30px;
+    }
+
+    .membership-parent {
+        padding: 40px 30px;
+    }
+
+    .health-cards-parent {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .health-card {
+        width: 100%;
+    }
+
+    .review-cards-parent {
+        flex-direction: column;
+    }
+
+    .review-card {
+        width: 100%;
+    }
+
+    .membership-heading>h1 {
+        font-size: 45px;
+    }
+
+    #inspiration-section .inspiration-heading>h1 {
+        font-size: 40px;
+    }
+
+
+
 }
