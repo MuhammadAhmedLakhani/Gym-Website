@@ -189,6 +189,7 @@ body {
     width: 55%;
     margin-top: 10px;
     background: url("./images/inspiration-image1.jpg") center/cover no-repeat;
+    background-position: 20% 30%;
 }
 
 #banner-section .tag-line h5 {
@@ -398,7 +399,7 @@ body {
 }
 
 #workout-section .workout-left {
-    width: 45%;
+    width: 50%;
     height: 50vh;
     padding: 20px 30px;
     background: url(./images/workout-left-image.jpg) center/cover no-repeat;
@@ -406,15 +407,15 @@ body {
 }
 
 #workout-section .workout-right {
-    width: 45%;
-    /* height: 40vh; */
+    width: 50%;
+    height: 50vh;
     padding: 30px 60px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    left: 35%;
+    left: 42%;
     top: 50%;
 }
 
@@ -1178,7 +1179,7 @@ body {
     }
 
     .gym-btn>button {
-        padding: 20px 30PX;
+        padding: 10px 20px;
     }
 
     /* workout section start here */
@@ -1391,6 +1392,133 @@ body {
 
     #inspiration-section .inspiration-heading>h1 {
         font-size: 40px;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:669px) and (max-width:1024px) {
+    #navbar-section .bottom-navbar {
+        padding: 15px 60px;
+    }
+
+    #navbar-section .links-container>li>a {
+        font-size: 15px;
+    }
+
+
+    #navbar-section .question-btn>button {
+        padding: 15px 10px;
+    }
+
+    #banner-section {
+        padding: 0px 60px 30px;
+    }
+
+    #red-section {
+        padding: 30px 60px;
+    }
+
+    .gym-container {
+        padding: 150px 60px;
+    }
+
+    #gym-section .gym-heading>h2 {
+        font-size: 50px;
+    }
+
+    #workout-section {
+        height: 95vh;
+        padding: 100px 60px;
+    }
+
+
+    #workout-section {
+        height: 100vh;
+    }
+
+    #workout-section .workout-right {
+        height: 60vh;
+    }
+
+
+    #inspiration-section .inspiration-overlay {
+        padding: 50px 60px 80px;
+    }
+
+    #inspiration-section .inspiration-card-image>img {
+        width: 100%;
+    }
+
+    #app-section {
+        padding: 80px 60px;
+    }
+
+    #next-level-section .overlay-background {
+        padding: 40px 60px;
+    }
+
+    #next-level-section .overlay-background {
+        background-position: top;
+    }
+
+
+
+    #journey-section {
+        padding: 50px 60px;
+    }
+
+    #journey-section .journey-left {
+        width: 50%;
+        height: auto;
+    }
+
+    #journey-section .journey-right {
+        width: 50%;
+    }
+
+
+    .journey-bottom-right {
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+    .journey-bottom-description>h4 {
+        font-size: 35px;
+    }
+
+
+    .journey-bottom-description>p {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+    #combine-section {
+        padding: 50px 60px;
+    }
+
+    .health-card {
+        width: 30%;
+    }
+
+
+    .review-card {
+        width: 29%;
     }
 
 
